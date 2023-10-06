@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 import Header from "@/components/Header";
 import LawyerReference from "@/components/LawyerReference";
 import Button from "@/components/Button";
+import AboutSection from "@/components/AboutSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -50,6 +51,7 @@ export default function Home() {
                </div>
                <LawyerReference />
             </div>
+            <AboutSection />
          </main>
       </>
    );

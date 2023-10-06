@@ -28,6 +28,12 @@ h2 {
    color: #505050;
 }
 
+h3 {
+   color: #a8a8a8;
+   font-size: 22px;
+   font-weight: 600;
+}
+
 h4 {
    font-weight: 500;
    font-size: 18px;
@@ -36,7 +42,7 @@ h4 {
 
 p {
    font-weight: 400;
-   font-size: 14px;
+   font-size: 15px;
    color: #9c9c9c;
 }
 
@@ -50,14 +56,30 @@ p {
 }
 
 .header-container > a {
+   position: relative;
    margin: 16px;
    font-size: 15px;
    font-weight: 300;
    color: rgba(255, 255, 255, 0.6);
 }
 
+.header-container > a::after {
+   content: "";
+   position: absolute;
+   width: 0%;
+   height: 1px;
+   left: 0;
+   bottom: -5px;
+   background-color: white;
+   transition: all 0.3s ease;
+}
+
 .header-container > a:hover {
    color: rgba(255, 255, 255, 1);
+}
+
+.header-container > a:hover::after {
+   width: 100%;
 }
 
 .lawyer-container {
@@ -126,10 +148,70 @@ p {
    width: fit-content;
    height: fit-content;
    cursor: pointer;
+   transition: transform 0.3s ease;
 }
 
 .button-container > p {
    color: white;
    font-weight: 200;
    font-size: 16px;
+   user-select: none;
+}
+
+.button-container:active {
+   transform: scale(0.95);
+}
+
+.about-container {
+   position: relative;
+   justify-content: space-evenly;
+   display: flex;
+   width: 100vw;
+   padding: 80px 200px 80px 200px;
+   height: max-content;
+}
+
+.section-title-container {
+   position: relative;
+   display: flex;
+   align-items: center;
+   height: fit-content;
+   gap: 10px;
+   margin-bottom: 20px;
+}
+
+.section-body {
+   width: 40%;
+}
+
+.about-image {
+   display: flex;
+   position: relative;
+   height: 300px;
+   width: 300px;
+}
+
+.about-image > img {
+   object-fit: cover;
+   border-radius: 10px;
+}
+
+.bar-icon {
+   display: flex;
+   align-items: center;
+   position: relative;
+   column-gap: 5px;
+   height: 50px;
+}
+
+.bar-icon > div {
+   position: relative;
+   width: 4px;
+   background-color: #a8a8a8;
+   border-radius: 2px;
+   height: 100%;
+}
+
+.bar-icon > div:nth-child(2n + 1) {
+   height: 80%;
 }

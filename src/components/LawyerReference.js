@@ -9,7 +9,7 @@ const InnerContainer = ({ title, description, children }) => {
       <div className="lawyer-innercontainer">
          <div className="icon">{children}</div>
          <h4>{title}</h4>
-         <p className="nofocus">{description}</p>
+         <p>{description}</p>
       </div>
    );
 };

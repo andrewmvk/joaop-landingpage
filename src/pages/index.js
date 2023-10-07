@@ -4,8 +4,9 @@ import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Header from "@/components/Header";
 import LawyerReference from "@/components/LawyerReference";
-import Button from "@/components/Button";
 import AboutSection from "@/components/AboutSection";
+import OcuppationSection from "@/components/OccupationSection";
+import ContactSection from "@/components/ContactSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -45,13 +46,16 @@ export default function Home() {
                <div className={styles.mainDetails}>
                   <h1>João Paulo Borges</h1>
                   <h2>
-                     Especialista em <p>DIREITO MÉDICO</p> e da <p>SAÚDE</p>
+                     Especialista em <span>DIREITO MÉDICO</span> e da{" "}
+                     <span>SAÚDE</span>
                   </h2>
-                  <Button text="Entre em contato" />
+                  <button className="button-container">Entre em contato</button>
                </div>
                <LawyerReference />
             </div>
             <AboutSection />
+            <OcuppationSection />
+            <ContactSection />
          </main>
       </>
    );

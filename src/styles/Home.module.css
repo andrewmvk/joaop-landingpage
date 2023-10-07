@@ -34,7 +34,7 @@
    margin-bottom: 50px;
 }
 
-.mainDetails > h2 > p {
+.mainDetails > h2 > span {
    display: inline-block;
    color: #b1c3cd;
    font-size: 24px;

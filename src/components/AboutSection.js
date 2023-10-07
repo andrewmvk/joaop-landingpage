@@ -4,14 +4,14 @@ import BarsIcon from "./BarsIcon";
 
 export default function AboutSection() {
    return (
-      <div className="about-container">
+      <div className="about section">
          <div className="section-body">
             <div className="section-title-container">
                <BarsIcon />
-               <div>
+               <hgroup>
                   <p>Sobre mim</p>
                   <h3>JOÃO PAULO BORGES</h3>
-               </div>
+               </hgroup>
             </div>
             <p>
                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc

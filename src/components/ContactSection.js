@@ -1,7 +1,6 @@
 import React from "react";
 import BarsIcon from "./BarsIcon";
 import { AiOutlineInstagram } from "react-icons/ai";
-import { TiSocialLinkedin } from "react-icons/ti";
 import { RiWhatsappFill } from "react-icons/ri";
 import { BiSolidPhone } from "react-icons/bi";
 
@@ -33,23 +32,35 @@ export default function ContactSection() {
                <div>
                   <p>Saiba mais sobre mim</p>
                   <div className="contacts-icons">
-                     <AiOutlineInstagram className="icon" />
-                     <TiSocialLinkedin className="icon" />
+                     <a
+                        href="https://www.instagram.com/advjoaopauloborges/"
+                        target="_blank"
+                     >
+                        <AiOutlineInstagram className="icon" />
+                     </a>
                   </div>
                </div>
                <div>
                   <p>Faça uma ligação</p>
-                  <button className="button-container">
+                  <a
+                     className="button-container"
+                     href="tel:+5562993474628"
+                     target="_blank"
+                  >
                      <BiSolidPhone />
-                     (62) 4002-8922
-                  </button>
+                     (62) 99347-4628
+                  </a>
                </div>
                <div>
                   <p>Mande uma mensagem</p>
-                  <button className="button-container">
+                  <a
+                     target="_blank"
+                     className="button-container"
+                     href="https://whatsa.me/5562993474628"
+                  >
                      <RiWhatsappFill />
                      Whatsapp
-                  </button>
+                  </a>
                </div>
             </div>
          </div>

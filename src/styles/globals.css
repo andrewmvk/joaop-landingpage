@@ -336,7 +336,7 @@ textarea:focus {
    column-gap: 5px;
 }
 
-.contacts-icons > .icon {
+.contacts-icons > a > .icon {
    width: 36px;
    height: 36px;
    border: 2px solid #97d5f8;

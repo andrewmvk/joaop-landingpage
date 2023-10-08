@@ -19,7 +19,7 @@ const ContactForm = () => {
 
 export default function ContactSection() {
    return (
-      <div className="contact section">
+      <div className="contact section" id="contact">
          <div className="section-title-container">
             <BarsIcon />
             <hgroup>

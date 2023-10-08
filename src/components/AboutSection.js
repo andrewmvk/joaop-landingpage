@@ -4,7 +4,7 @@ import BarsIcon from "./BarsIcon";
 
 export default function AboutSection() {
    return (
-      <div className="about section">
+      <div className="about section" id="about">
          <div className="section-body">
             <div className="section-title-container">
                <BarsIcon />
@@ -14,26 +14,25 @@ export default function AboutSection() {
                </hgroup>
             </div>
             <p>
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-               erat ligula, tempor sed fringilla et, aliquet ut urna. Proin ac
-               risus sed dui rhoncus feugiat aliquam at velit. Quisque maximus
-               urna nisl, quis dapibus arcu aliquam sed. Duis lobortis
-               condimentum rutrum. Integer fermentum odio tortor, eu viverra
-               ligula finibus in. Vestibulum rutrum pretium accumsan. Integer
-               tristique tempus malesuada. Etiam finibus vitae dolor quis
-               interdum. Duis aliquam vel magna quis porta. Vivamus lacinia
-               metus ligula, et placerat augue condimentum vitae. Nam ultricies
-               hendrerit ligula, non euismod purus feugiat sodales. Lorem ipsum
-               dolor sit amet, consectetur adipiscing elit. Nunc erat ligula,
-               tempor sed fringilla et, aliquet ut urna. Proin ac risus sed dui
-               rhoncus feugiat aliquam at velit. Duis aliquam vel magna quis
-               porta. Vivamus lacinia metus ligula, et placerat augue
-               condimentum vitae.
+               Olá! Me chamo João Paulo. Bacharel em Direito pela Pontifícia
+               Universidade Católica de Goiás. Especialista Pós-Graduado em
+               Direito e Saúde pelo Instituto Israelita de Ensino e Pesquisa
+               Albert Einstein. Membro da Comissão de Direito e Saúde da OAB/GO.
+               Focado nesta área desde o meu princípio na Advocacia, optei por
+               me especializar em atuações voltadas a médicos e pacientes. Com o
+               passar do tempo e experiências vividas, tive certeza que escolhi
+               o ramo do Direito ideal para mim, pois, meu grande objetivo é
+               impactar positivamente a vida das pessoas. Com ampla experiência
+               e conhecimento na área, prezo pelo atendimento humanizado,
+               pessoal e com atenção às particularidades inerentes a cada caso.
+               Meus clientes contam com uma atuação diligente, visando efetivar
+               a maior celeridade possível e contato direto com o profissional,
+               possibilitando a relação necessária em demandas de saúde.
             </p>
          </div>
          <div className="about-image">
             <Image
-               src="/main-image.png"
+               src="/about-image.png"
                alt="Advogado Joao Paulo"
                quality={100}
                priority

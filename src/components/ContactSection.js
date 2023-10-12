@@ -151,6 +151,7 @@ export default function ContactSection() {
                      <a
                         href="https://www.instagram.com/advjoaopauloborges/"
                         target="_blank"
+                        rel="noreferrer"
                      >
                         <AiOutlineInstagram className="icon" />
                      </a>
@@ -162,6 +163,7 @@ export default function ContactSection() {
                      className="button-container"
                      href="tel:+5562993474628"
                      target="_blank"
+                     rel="noreferrer"
                   >
                      <BiSolidPhone />
                      (62) 99347-4628
@@ -173,6 +175,7 @@ export default function ContactSection() {
                      target="_blank"
                      className="button-container"
                      href="https://whatsa.me/5562993474628"
+                     rel="noreferrer"
                   >
                      <RiWhatsappFill />
                      Whatsapp

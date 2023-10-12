@@ -36,7 +36,7 @@ const ContactForm = ({ showFeedback }) => {
          .sendForm(
             "service_a88o88l",
             "template_skt75te",
-            form.current,
+            formRef.current,
             "aIddVbOPXHrrKWRrD"
          )
          .then(

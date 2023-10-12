@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImage from "../images/about-image.png";
+import aboutImage from "../images/about-image.jpeg";
 import BarsIcon from "./BarsIcon";
 
 export default function AboutSection() {

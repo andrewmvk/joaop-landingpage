@@ -28,7 +28,9 @@ function App() {
                   Especialista em <span>DIREITO MÉDICO</span> e da{" "}
                   <span>SAÚDE</span>
                </h2>
-               <button className="button-container">Entre em contato</button>
+               <a href="#contact" className="button-container">
+                  Entre em contato
+               </a>
             </div>
          </div>
          <LawyerReference />

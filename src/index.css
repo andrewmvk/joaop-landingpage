@@ -161,7 +161,7 @@ textarea:focus {
    bottom: 40px;
    left: 50%;
    transform: translateX(-50%);
-   width: 90vw;
+   width: 80vw;
    padding: 40px 50px;
    height: fit-content;
    background-color: white;
@@ -547,6 +547,7 @@ textarea:focus {
       margin-top: -8rem;
    }
    .about-image {
+      height: fit-content;
       width: 90%;
    }
 }

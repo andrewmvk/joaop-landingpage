@@ -4,3 +4,7 @@ Landing Page desenvolvida para um cliente chamado João, é um site simples cont
 
 ## Link
 URL: https://advogado-joaopaulo.com.br
+
+## Colaboradores
+[@andrewmvk](https://github.com/andrewmvk)
+[@brayanamaral](https://github.com/BrayanAmarals)
